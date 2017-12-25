@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/iot_screen"
+    android:orientation="vertical"
+    tools:context="schemax.iot.MainActivity">
+
+    <EditText
+        android:id="@+id/spell_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hi I am Jessy"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/speak_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="50dp"
+        android:text="Intitialise Speach" />
+
+    <Button
+        android:id="@+id/visible_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="visible"
+        android:visibility="gone" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/voices_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
